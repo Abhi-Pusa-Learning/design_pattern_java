@@ -5,6 +5,7 @@ import builderpattern.MealBuilderPatternDemo;
 import commandpattern.CommandPatternDemo;
 import factorypattern.ShapeFactoryDemo;
 import filterpattern.FilterPatternDemo;
+import observerpattern.ObserverPatternDemo;
 import prototypepattern.PrototypePatternDemo;
 import singletonpattern.SingleObject;
 import singletonpattern.SingletonPatternDemo;
@@ -41,7 +42,11 @@ public class Main {
         // filterPatternDemo.execute();
 
         // command pattern demo
-        CommandPatternDemo commandPatternDemo = new CommandPatternDemo();
-        commandPatternDemo.execute();
+        // CommandPatternDemo commandPatternDemo = new CommandPatternDemo();
+        // commandPatternDemo.execute();
+
+        // observer pattern demo
+        ObserverPatternDemo observerPatternDemo = new ObserverPatternDemo();
+        observerPatternDemo.execute();
     }
 }
